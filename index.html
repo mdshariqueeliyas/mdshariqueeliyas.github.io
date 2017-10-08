@@ -7,38 +7,33 @@
 		<link rel="stylesheet" type="text/css" href="animate.css">
 		
 	<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
-	<script>
-	  // Initialize Firebase
-	  var config = {
-	    apiKey: "AIzaSyDLlrhZqwmUeV49gW5EK9_c_FFdYK_yr8Q",
-	    authDomain: "mygithomepage.firebaseapp.com",
-	    databaseURL: "https://mygithomepage.firebaseio.com",
-	    projectId: "mygithomepage",
-	    storageBucket: "",
-	    messagingSenderId: "451115980116"
-	  };
-	  firebase.initializeApp(config);
-	</script>
 		<script type="text/javascript" src="scripts.js"></script>
 		<title>Home-Md Sharique Elyas</title>
 	</head>
 	
 	<body>
 		<div id = 'main'>
-			<div id = 'banner'>Banner</div>
+			<div id = 'banner'></div>
 
 			<div id='content'>
 				<div id = 'left'>
 					<div id='photo'>
 						<div id='myphoto'></div>
 					</div>
-					<div id='leftnav'>
-						<div id='leftnavlogo'>CONTACTS</div>
+					<div class='leftnav'>
+						<div class='leftnavlogo'>CONTACTS</div>
 						<div id='leftnavdiv'>
 							<ul id='leftnavul'>
-								<li class='leftnavli'><a href="javascript:void(0);" onclick="open_modal('modal');">Email</a></li>
-								<li class="leftnavli"><a href="https://www.linkedin.com/in/shariqueeliyas" target="blank">LinkedIn</a></li>
+								<li class='leftnavli'>&#10023; <a href="javascript:void(0);" onclick="open_modal('modal');">Email</a></li>
+								<li class="leftnavli">&#10023; <a href="https://www.linkedin.com/in/shariqueeliyas" target="blank">LinkedIn</a></li>
 							</ul>
+						</div>
+					</div>
+					<div class="leftnav" id="location">
+						<div class='leftnavlogo'>LOCAION</div>
+						<div id='locationdiv'>
+							<p>Room No. - 000,</p>
+								<p>Diamond Hostel, <a href="http://iitism.ac.in" target="blank">IIT(ISM),Dhanbad</a></p>
 						</div>
 					</div>
 				</div>
@@ -46,9 +41,11 @@
 					<div id='topnavout'>
 						<div id='topnav'>
 							<ul id='ulid'>
-								<li class='navclass' id='current'><a href=""><span class = 'navspan'>Home</span></a></li>
-								<li class="navclass"><a href=""><span class="navspan">About</span></a></li>
-								<li class="navclass"><a href=""><span class="navspan">Contacts</span></a></li>
+								<li class='navclass' id='current'><a href="index.html"><span class = 'navspan'>Home</span></a></li>
+								<li class="navclass"><a href="about.html"><span class="navspan">About</span></a></li>
+								<li class="navclass"><a href="projects.html"><span class="navspan">Projects</span></a></li>
+								<li class="navclass"><a href="Resume- Sharique Eliyas.pdf" target="blank"><span class="navspan">Resume</span></a></li>
+								<li class="navclass"><a href="contacts.html"><span class="navspan">Contacts</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -58,10 +55,38 @@
 						<h4>Department of Computer Science & Engineering</h3>
 						<h3>Indian Institute of Technology (ISM), Dhanbad</h3>
 					</div>
+					<div id= "summary">
+						<div id="summaryhead">&#10063; SUMMARY</div>
+						<div id=summarytext>
+							<h4>Hi, I am Sharique...</h4>
+							<p class="para">Currently i am persuing Dual Degree Bachelor & Master of Technology from Department of Computer Science and Engineering, Indian Institute of Technology(ISM),Dhanbad. Apart from my regular academics i am working on different Machine Learning projects. My fields of Intrests are Algorithm, Data Structure, Machine Learning and Web Development.</p>
+							<p class="para">I Favourite hobbies and Intrests are coding,Listening music, cycling, swimming.</p>
+						</div>
+					</div>
 				</div>
-				<div id = 'right'></div>
+				<div id = 'right'>
+					<div class="rightnav">
+						<div class="leftnavlogo">LINKS</div>
+						<div id="rightnavdiv">
+							<ul id="rightnavul">
+								<li class="rightnavli">&#10023; <a href="http://iitism.ac.in/index.php/computer_science">Department of CSE</a></li>
+								<li class="rightnavli">&#10023; <a href="http://iitism.ac.in/">IIT(ISM),Dhanbad</a></li>
+								<li class="rightnavli">&#10023; <a href="https://github.com/shaeli1996">Github</a></li>
+								<li class="rightnavli">&#10023; <a href="">Codeforces</a></li>
+								<li class="rightnavli">&#10023; <a href="">HackerEarth</a></li>
+								<li class="rightnavli">&#10023; <a href="">HackerRank</a></li>
+								<li class="rightnavli">&#10023; <a href="">SPOJ</a></li>
+								<li class="rightnavli">&#10023; <a href="">Codechef</a></li>
+								<li class="rightnavli">&#10023; <a href=""></a></li>
+								<li class="rightnavli">&#10023; <a href=""></a></li>
+								<li class="rightnavli">&#10023; <a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div id="footer">footer under construction</div>
 		<div id = 'modal'>
 			<div id='modalinside' class="">
 				<div id='modalemail'>

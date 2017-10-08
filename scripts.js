@@ -4,6 +4,8 @@ function open_modal(id){
 	var f = document.getElementById('modalinside');
 	if(e.style.visibility=="hidden" || e.style.visibility==""){
 		e.style.visibility = "visible";
+		// window.scrollTo(0,0);
+		e.style.position="fixed";
 		f.className += " animated slideInDown";
 	}
 	else{

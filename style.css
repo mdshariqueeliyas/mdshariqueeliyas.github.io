@@ -1,5 +1,5 @@
 body{
-	/*background-image: url("bodybackground.jpg");*/
+	background-image: url("bodybackground.jpg");
 	/*background-repeat: no-repeat;*/
 	background-size: 100px 2000px;
 }
@@ -15,10 +15,11 @@ a{
 	position: center;
 	margin:0px auto;
 	width: 1000px;
-	height: 2000px;
+	height: 100%;
 	/*border: 1px solid red;*/
 }
 #banner{
+	background-image: url(banner.jpg);
 	/*background-color: green;*/
 	margin : 5px;
 	height: 80px;
@@ -26,7 +27,7 @@ a{
 #content{
 	margin: auto;
 	/*height: 1000px;*/
-	height: 2000px;
+	height: 700px;
 	/*background-color: yellow;*/
 	/*border: 2px solid brown;*/
 }
@@ -93,6 +94,9 @@ a{
 	border-bottom: 5px solid #008080;
 	height: 30px;
 }
+#ulid{
+	margin-left: -15px;
+}
 .navclass{
 	z-index: -1;
 	text-align: center;
@@ -135,7 +139,7 @@ a{
 	box-shadow: 5px 5px 3px #b3cccc;
 	/*background-color: red;*/
 }
-#leftnav{
+.leftnav{
 	margin-top: 0px;
 	padding-top: 10px;
 	/*width: 190px;*/
@@ -144,7 +148,7 @@ a{
 	box-shadow: 5px 5px 3px #b3cccc;
 	border-radius: 20px;
 }
-#leftnavlogo{
+.leftnavlogo{
 	color :white;
 	font-family: arial;
 	font-weight: bold;
@@ -257,5 +261,80 @@ a{
 #leftnavdiv{
 	/*background-color: purple;*/
 	margin:0px auto;
-	margin-top: -5px;
+	margin-left: -28px;
+	margin-top: -13px;
+}
+.leftnavli{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: arial;
+	/*font-weight: bold;*/
+	padding: 2px;
+	/*background-color: yellow;*/
+}
+#location{
+	margin-top: 40px;
+}
+#locationdiv{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.rightnav{
+	margin-top: 270px;
+	padding-top: 10px;
+	/*width: 190px;*/
+	min-height: 300px;
+	background-color: #eff5f5;
+	box-shadow: 5px 5px 3px #b3cccc;
+	border-radius: 20px;
+}
+#rightnavdiv{
+	margin:0px auto;
+}
+#rightnavul{
+	margin:0px auto;
+	margin-top: 10px;
+}
+.rightnavli{
+	margin-left: -25px;
+	list-style-type: none;
+	height: 25px;
+}
+#summary{
+	height: 350px;
+	margin:20px 10px 0px 10px;
+	color : #008080;
+	background-color: #eff5f5;
+	border-radius: 30px;
+	box-shadow: 5px 5px 3px #b3cccc;
+}
+#summaryhead{
+	height: 30px;
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: bold;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: #d1e0e0;
+	height: 40px;
+	border-bottom: 1px solid grey;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+#summarytext{
+	margin:15px;
+}
+.para{
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 150%;
+}
+#footer
+{
+	height: 60px;
+	background-color: red;
 }
